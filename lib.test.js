@@ -25,14 +25,14 @@ test("prime(1) should be false", () => {
     expect(lib.prime(1)).toBe(false);
 });
 
-test("factorial(5) should be 120", () => {
-    expect(lib.factorial(5)).toBe(120);
+test("fact(5) should be 120", () => {
+    expect(lib.fact(5)).toBe(120);
 });
 
-test("factorial(10) should be 3628800", () => {
-    expect(lib.factorial(10)).toBe(3628800);
+test("fact(10) should be 3628800", () => {
+    expect(lib.fact(10)).toBe(3628800);
 });
 
-test("factorial(1) should be 1", () => {
-    expect(lib.factorial(1)).toBe(1);
+test("fact(1) should be 1", () => {
+    expect(lib.fact(1)).toBe(1);
 });
